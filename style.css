@@ -1,0 +1,136 @@
+
+    /* The side navigation menu */
+    .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    }
+
+   
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    }
+
+    
+    .search-container {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    }
+
+    #search-bar {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    }
+
+    #search-results {
+    margin-top: 10px;
+
+    }
+
+    .vertical-menu {
+    display: flex;
+    flex-direction: column; 
+    gap: 5px; 
+    background-color: #ffffff; 
+    border: 1px solid #dddddd; 
+    padding: 5px; 
+    border-radius: 3px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    }
+
+    .vertical-menu button {
+        padding: 5px 10px; 
+        background-color: gray; 
+        border: none; 
+        cursor: pointer; 
+        text-align: left; 
+        white-space: nowrap; 
+    }
+
+    .vertical-menu button:hover {
+        background-color: #f1f1f1; 
+    }
+
+
+    .create-folder-button {
+        background-color: gray;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        margin-right: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+
+    .create-folder-button:hover {
+        background-color: #2980b9;
+    }
+
+
+    .create-folder-button i {
+        margin-right: 5px;
+    }
+
+
+    .upload-file-button {
+        background-color: gray;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        margin-right: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+
+    .upload-file-button:hover {
+        background-color: #2980b9;
+    }
+
+    .folder-link {
+        color: #ffff88 !important;
+        cursor: pointer;
+    }
+
+
+    .file-link {
+        color: lightblue !important;
+        cursor: pointer;
+    }
+
+    .pdf-container-open {
+    margin-left: 400px; /* Adjust this value to match the width of your side nav */
+    transition: margin-left 0.3s ease;
+
+
+
+    }
