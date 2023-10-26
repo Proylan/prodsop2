@@ -1,0 +1,9 @@
+{
+    "name": "froiyot/last",
+    "autoload": {
+        "psr-4": {
+            "Froiyot\\Last\\": "src/"
+        }
+    },
+    "require": {}
+}
